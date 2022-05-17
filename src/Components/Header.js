@@ -2,7 +2,7 @@ import React from "react";
 import { MenuIcon } from "@heroicons/react/outline";
 const Header = () => {
 	return (
-		<header className='bg-d_b flex items-center justify-between py-4 px-6  '>
+		<header className='bg-d_b  w-screen flex items-center justify-between py-4 px-6  '>
 			<a href='/'>
 				<img
 					src=' ./Logo-White.png '

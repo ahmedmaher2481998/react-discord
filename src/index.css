@@ -5,4 +5,7 @@
 	.link {
 		@apply hover:underline text-white transition text-sm ease-in-out duration-200 font-semibold cursor-pointer hover:text-gray-300;
 	}
+	.main-btn {
+		@apply py-3 tracking-wider hover:shadow-2xl transition duration-200 ease-in-out rounded-full hover:text-d_b flex flex-row items-center justify-center text-xl font-semibold;
+	}
 }
