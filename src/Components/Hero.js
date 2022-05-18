@@ -4,7 +4,7 @@ const Hero = () => {
 	return (
 		<>
 			<div className='h-screen bg-d_b w-screen p-4'>
-				<div className=' p-7 py-9 md:h-[83hv] md:flex  relative'>
+				<div className=' p-7 py-9 md:h-[83hv] md:flex  relative  '>
 					<div className='flex flex-col gap-7 md:max-w-non lg:justify-center'>
 						<h1 className='text-white text-5xl  font-extrabold tracking-wider'>
 							IMAGINE A PLACE...
@@ -26,17 +26,19 @@ const Hero = () => {
 							</button>
 						</div>
 					</div>
-					<div className='flex-grow'></div>
-					<img
-						src='https://discord.com/assets/e92fcc9ab6e63c1a17e954af347a1f1d.svg'
-						alt='discord pic  hero  '
-						className=' absolute -left-36 mt-16 sm:-left-44 md:hidden'
-					/>
-					<img
-						src='https://discord.com/assets/7b01f72a2054561145b6dd04add417c0.svg'
-						alt='discord hero '
-						className=' md:inline   absolute hidden'
-					/>
+					{/* absolute -left-36 mt-16 sm:-left-44 */}
+					<div className='flex-grow'>
+						<img
+							src='./hero1.svg'
+							alt='discord pic  hero  '
+							className=' absolute  mx-auto md:hidden'
+						/>
+						<img
+							src='/hero2.svg'
+							alt='discord hero '
+							className=' md:inline md:-right-60 md:top-40 lg:-right-48 absolute hidden'
+						/>
+					</div>
 				</div>
 			</div>
 		</>
